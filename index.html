@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes Odin</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-size: 1.2rem;
+            line-height: 1.5;
+            background-color: #282828;
+            margin: 1% auto;
+            padding: 30px;
+            width: 80%;
+            color: #D5C4A1;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        a:hover {
+            color: #dfa42f;
+        }
+
+        .header_nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .header_nav img{
+            max-width: 30px;
+        }
+
+        .header_hero {
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+
+        }
+
+        .header_hero img {
+            max-width: 400px;
+        }
+        
+        .main_ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            list-style-type: none;
+            margin-top: 2rem;
+        }
+
+        .footer_ul {
+            flex-direction: row;
+            gap: 2rem;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+
+            <div class="header_nav">
+                <img src="./assets/odin.png" alt="Imagem do Odin">
+                <h1>Odin Recipes</h1>
+            </div>
+
+            <div class="header_hero">
+                <img src="./assets/Cooking.gif" alt="Imagem de uma panela">
+            </div>
+
+
+        </div>
+
+    </header>
+
+    <main>
+        <ul class="main_ul">
+            <li><a href="./curry-food.html">Curry Green</a></li>
+            <li><a href="./bubble-tea.html">Bubble-Tea</a></li>
+            <li><a href="./guabao.html">Guabão</a></li>
+        </ul>
+    </main>
+
+    <footer>
+        <div class="footer_ul main_ul">
+            <li><a href="https://github.com/henrymzs">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/henry-kaua/">Linkedin</a></li>
+            <li><a href="#">Gmail</a></li>
+        </div>
+    </footer>
+</body>
+</html>
