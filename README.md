@@ -4,7 +4,7 @@ I'm always looking to improve my skills, so any feedback on the project, code, a
 
 🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/henry-kaua/)
 
-🐛 Open an [issue](https://github.com/henrymzs/api-todolist/issues) in the repository 
+🐛 Open an [issue](https://github.com/henrymzs/odin-project-recipes/issues) in the repository 
 
 Any help is greatly appreciated and contributes to my growth as a developer. 🚀
 
